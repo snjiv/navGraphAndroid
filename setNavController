@@ -1,0 +1,4 @@
+// Set up nav contoller with bottom navigation or else
+
+  var navController = Navigation.findNavController(this, R.id.nav_host_fragment)
+        NavigationUI.setupWithNavController(bindingHome.bottomNav, navController)

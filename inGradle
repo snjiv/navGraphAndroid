@@ -1,0 +1,13 @@
+
+//Add this in your project level gradle under dependances
+
+   def nav_version = "2.3.4"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
+        
+        // add this in your module level gradle under dependances
+        
+            def nav_version = "2.3.4"
+
+    // Kotlin Navigation graph
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
